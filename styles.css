@@ -1,0 +1,122 @@
+/* 20px, 25px, 30px, 45px (biggest one only for main heading) */
+/* REUSABLE STYLINGS START */
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.button {
+  background-color: #fab005;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #fab005;
+  padding: 15px 30px;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+/* REUSABLE STYLINGS START  END*/
+/* INTRO SLIDE START */
+.intro {
+  height: 400px;
+  color: white;
+  /* background: url("Capture2.JPG"); */
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("Capture2.JPG");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-heading {
+  font-size: 45px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.intro-description {
+  text-align: center;
+  font-size: 25px;
+
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* INTRO SLIDE END */
+/* LEARN MORE  */
+.learn-more {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+/* LEARN MORE END */
+/* FAQ START */
+.faq {
+  background-color: white;
+  color: #191635;
+
+  padding: 40px 100px;
+}
+.question-container {
+  margin-bottom: 40px;
+}
+.question {
+  font-size: 25px;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+}
+.answer {
+}
+/* FAQ END*/
+/* VIDEO START */
+.video-container {
+  background-color: #fab005;
+
+  /* padding: 100px 100px; */
+  padding-top: 50px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  /* position: relative;*/ /*lai video butu centrā */
+}
+.video-heading {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.video-frame {
+  border: 0px;
+}
+/* VIDEO END */
+/* QUOTE START */
+.quote-container {
+  background-color: white;
+  text-align: center;
+  padding: 100px 100px;
+}
+.quote {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.author {
+  font-size: 15px;
+}
+.author-link {
+  color: black;
+  text-decoration: none;
+}
+/* QUOTE END */
